@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:libredit="http://schemas.android.com/apk/res-auto" >
+    <item android:id="@+id/fileinfo"
+        libredit:showAsAction="ifRoom"
+        android:icon="@drawable/info"
+        android:title="About..."/>
+    <item android:id="@+id/newdoc"
+        libredit:showAsAction="ifRoom"
+        android:icon="@drawable/newfile"
+        android:title="New Document"/>
+    <item android:id="@+id/save"
+        libredit:showAsAction="ifRoom"
+        android:icon="@drawable/save"
+        android:title="Save"/>
+    <item android:id="@+id/saveas"
+        libredit:showAsAction="ifRoom"
+        android:icon="@drawable/saveas"
+        android:title="Save As..."/>
+    <item android:id="@+id/open"
+        libredit:showAsAction="ifRoom"
+        android:icon="@drawable/file"
+        android:title="Open"/>
+    <item android:id="@+id/share"
+    libredit:showAsAction="ifRoom"
+    android:icon="@drawable/search"
+    android:title="Share"/>
+    <item android:id="@+id/addimg"
+        libredit:showAsAction="ifRoom"
+        android:icon="@drawable/print"
+        android:title="Insert Image"/>
+    <item android:id="@+id/delete"
+        libredit:showAsAction="ifRoom"
+        android:icon="@drawable/guides"
+        android:title="Delete"/>
+</menu>

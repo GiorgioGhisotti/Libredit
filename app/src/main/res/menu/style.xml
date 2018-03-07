@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:libredit="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/italic"
+        libredit:showAsAction="ifRoom"
+        android:icon="@drawable/italic"
+        android:title="Italic"/>
+    <item android:id="@+id/bold"
+        libredit:showAsAction="ifRoom"
+        android:icon="@drawable/bold"
+        android:title="Bold"/>
+    <item android:id="@+id/underline"
+        libredit:showAsAction="ifRoom"
+        android:icon="@drawable/underline"
+        android:title="Underline"/>
+    <item android:id="@+id/color"
+    libredit:showAsAction="ifRoom"
+    android:icon="@drawable/font"
+    android:title="Color"/>
+    <item android:id="@+id/addimage"
+        libredit:showAsAction="ifRoom"
+        android:icon="@drawable/table"
+        android:title="Insert image"/>
+</menu>
